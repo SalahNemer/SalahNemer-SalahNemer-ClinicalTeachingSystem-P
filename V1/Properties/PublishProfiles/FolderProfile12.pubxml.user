@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Abood\Desktop\V1-11\V1-final1\V1\V1\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2025-04-25T23:43:48.6962710Z||;True|2025-04-25T21:47:35.8556629+03:00||;True|2025-04-25T18:31:55.6821534+03:00||;True|2025-04-23T15:24:45.2871340+03:00||;True|2025-04-23T15:01:55.8727171+03:00||;False|2025-04-23T15:01:42.1107282+03:00||;True|2025-04-23T13:52:42.9851222+03:00||;True|2025-04-22T14:12:04.3834565+03:00||;True|2025-04-22T14:06:46.2748326+03:00||;True|2025-04-20T15:43:36.1444436+03:00||;True|2025-04-16T16:20:09.5513393+03:00||;True|2025-04-13T19:52:00.6097249+03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

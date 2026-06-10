@@ -1,0 +1,3618 @@
+[
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AcademicYearControll",
+    "Method": "AddAcademicYearDto",
+    "RelativePath": "api/AcademicYearControll/AddAcademicYear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "academicYear",
+        "Type": "DevetionStudetns.DTO.AcademicYearDTO.GetAcademicYearDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AcademicYearControll",
+    "Method": "DeleteAcademicYear",
+    "RelativePath": "api/AcademicYearControll/DeleteAcademicYear/{AcadmicYearId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcadmicYearId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AcademicYearControll",
+    "Method": "GetAllAcademicYear",
+    "RelativePath": "api/AcademicYearControll/GetAllAcademicYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AcademicYearControll",
+    "Method": "GetAllAcademicYearWithId",
+    "RelativePath": "api/AcademicYearControll/GetAllAcademicYearWithId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.abed.AllAcademicYearController",
+    "Method": "AddCurrentAcademicYear",
+    "RelativePath": "api/AllAcademicYear/AddCurrentAcademicYear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addAllAcademicYear",
+        "Type": "V1.abed.AllAcademicYearDTO.AddAllAcademicYearDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.abed.AllAcademicYearController",
+    "Method": "DeleteAcademicYear",
+    "RelativePath": "api/AllAcademicYear/DeleteAcademicYear/{AcademicYearId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.abed.AllAcademicYearController",
+    "Method": "GetAcademicYearById",
+    "RelativePath": "api/AllAcademicYear/GetAcademicYearById/{AcademicYearId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.abed.AllAcademicYearController",
+    "Method": "GetAllAcademicYear",
+    "RelativePath": "api/AllAcademicYear/GetAllAcademicYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.abed.AllAcademicYearController",
+    "Method": "UpdateAcademicYear",
+    "RelativePath": "api/AllAcademicYear/UpdateAcademicYear/{AcademicYearId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewAcademicYear",
+        "Type": "V1.abed.AllAcademicYearDTO.AddAllAcademicYearDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "AcademicYearId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.AnswerTheEvaluationController",
+    "Method": "AddAnswerTheEvaluation",
+    "RelativePath": "api/AnswerTheEvaluation/AddAnswerTheEvaluation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addAnswerTheEvaluationDto",
+        "Type": "FinalProject.DTO.AnswerTheEvaluationDTO.AddAnswerTheEvaluationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.AnswerTheEvaluationController",
+    "Method": "AddAnswerTheEvaluationForTheDepartmentHead",
+    "RelativePath": "api/AnswerTheEvaluation/AddAnswerTheEvaluationForTheDepartmentHead",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "evaluationAnswerDto",
+        "Type": "FinalProject.DTO.AnswerTheEvaluationDTO.AddAnswerTheEvaluationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.AnswerTheEvaluationController",
+    "Method": "DeleteAnswer",
+    "RelativePath": "api/AnswerTheEvaluation/DeleteAnswer",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.AnswerTheEvaluationController",
+    "Method": "GetEvaluationForm",
+    "RelativePath": "api/AnswerTheEvaluation/GetAnswerTheEvaliationQ",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.AnswerTheEvaluationController",
+    "Method": "GetAnswerTheEvaliationQByAnswerId",
+    "RelativePath": "api/AnswerTheEvaluation/GetAnswerTheEvaliationQByAnswerId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.AnswerTheEvaluationController",
+    "Method": "ShowDataDoctorByStudentId",
+    "RelativePath": "api/AnswerTheEvaluation/getdoctorsbystudentid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.AnswerTheEvaluationController",
+    "Method": "ShowAllDoctorInTheDepartmentByDepartmentHeadId",
+    "RelativePath": "api/AnswerTheEvaluation/ShowAllDoctorInTheDepartmentByDepartmentHeadId/{DepartmentHeadId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DepartmentHeadId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AppotmentsController",
+    "Method": "AddAppotments",
+    "RelativePath": "api/Appotments/AddAppotments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addAppointmentsDto",
+        "Type": "DevetionStudetns.DTO.AppointmentsDTO.AddAppointmentsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AppotmentsController",
+    "Method": "DeleteAppointments",
+    "RelativePath": "api/Appotments/DeleteAppointments/{AppointmentsId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AppointmentsId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AppotmentsController",
+    "Method": "GetAllAppointmentsByAppointment",
+    "RelativePath": "api/Appotments/GetAllAppointmentsByAppointment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AppotmentsController",
+    "Method": "GetAppointmentsByAppointmentId",
+    "RelativePath": "api/Appotments/GetAppointmentsByAppointmentId/{AppointmentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AppointmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AppotmentsController",
+    "Method": "GetAppointmentsByRotationIdService",
+    "RelativePath": "api/Appotments/GetAppointmentsByRotationId/{rotationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rotationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AppotmentsController",
+    "Method": "GetAppointmentsInTheOneMainGroup",
+    "RelativePath": "api/Appotments/getAppointmentsInTheOneMainGroup/{MainGroupId}/{RotationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MainGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "RotationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AppotmentsController",
+    "Method": "GetAppointmentsInTheOneSubGroup",
+    "RelativePath": "api/Appotments/getAppointmentsInTheOneSubGroup/{subGroupId}/{RotationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "RotationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AppotmentsController",
+    "Method": "UpdateAppointment",
+    "RelativePath": "api/Appotments/UpdateAppointment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewAppointmentData",
+        "Type": "DevetionStudetns.DTO.AppointmentsDTO.AddAppointmentsDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "AppointmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "DistributionApprovedByTheDean",
+    "RelativePath": "api/Approvals/DistributionApprovedByTheDean",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "DistributionNotApprovedByTheDean",
+    "RelativePath": "api/Approvals/DistributionNotApprovedByTheDean",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "DivisionsApprovedByTheDean",
+    "RelativePath": "api/Approvals/DivisionsApprovedByTheDean",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "DivisionsNotApprovedByTheDean",
+    "RelativePath": "api/Approvals/DivisionsNotApprovedByTheDean",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "GetListOfDistributionAfterTheApprovles",
+    "RelativePath": "api/Approvals/GetListOfDistributionAfterTheApprovles/{AcademicYearName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "GetListOfDistributionForTheApprovles",
+    "RelativePath": "api/Approvals/GetListOfDistributionForTheApprovles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "GetListOfDivisionAfterTheApprovles",
+    "RelativePath": "api/Approvals/GetListOfDivisionAfterTheApprovles/{AcademicYearName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "GetListOfDivisionForTheApprovles",
+    "RelativePath": "api/Approvals/GetListOfDivisionForTheApprovles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "GetListOfMarkForTheApprovlesForTheClinicalDepartmentDirector",
+    "RelativePath": "api/Approvals/GetListOfMarkForTheApprovlesForTheClinicalDepartmentDirector",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "GetListOfMarkForTheApprovlesForTheDean",
+    "RelativePath": "api/Approvals/GetListOfMarkForTheApprovlesForTheDean",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "GetListOfMarkForTheApprovlesForTheDepartmentHead",
+    "RelativePath": "api/Approvals/GetListOfMarkForTheApprovlesForTheDepartmentHead/{DepartmentHeadId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DepartmentHeadId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "GetMarkApprovedToTheDoctor",
+    "RelativePath": "api/Approvals/GetMarkApprovedToTheDoctor/{doctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "GetMarkNotApprovedToTheDoctor",
+    "RelativePath": "api/Approvals/GetMarkNotApprovedToTheDoctor/{doctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "MarkApprovedByTheClinicalDepartmentDirector",
+    "RelativePath": "api/Approvals/MarkApprovedByTheClinicalDepartmentDirector",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "MarkApprovedByTheDean",
+    "RelativePath": "api/Approvals/MarkApprovedByTheDean",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "MarkApprovedByTheDeprtmentHead",
+    "RelativePath": "api/Approvals/MarkApprovedByTheDeprtmentHead",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "MarkNotApprovedByTheClinicalDepartmentDirector",
+    "RelativePath": "api/Approvals/MarkNotApprovedByTheClinicalDepartmentDirector",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "MarkNotApprovedByTheDean",
+    "RelativePath": "api/Approvals/MarkNotApprovedByTheDean",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "MarkNotApprovedByTheDeprtmentHead",
+    "RelativePath": "api/Approvals/MarkNotApprovedByTheDeprtmentHead",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "ReSendApprovalsForTheDistbution",
+    "RelativePath": "api/Approvals/ReSendApprovalsForTheDistbution",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "ReSendApprovalsForTheDivision",
+    "RelativePath": "api/Approvals/ReSendApprovalsForTheDivision",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "ReSendMarkToTheDepartmetnsHead",
+    "RelativePath": "api/Approvals/ReSendMarkToTheDepartmetnsHead/{DoctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "SendDistbutionForTheApprovals",
+    "RelativePath": "api/Approvals/SendDistbutionForTheApprovals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "SendDivisionForTheApprovals",
+    "RelativePath": "api/Approvals/SendDivisionForTheApprovals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CurrentAcadmicYear",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "SendMarkToTheDepartmetnsHead",
+    "RelativePath": "api/Approvals/SendMarkToTheDepartmetnsHead/{DoctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "UpdateApprovalsForTheDistribution",
+    "RelativePath": "api/Approvals/UpdateApprovalsForTheDistribution",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateApprovalsDto",
+        "Type": "V1.DTO.ApprovalsDTO.UpdateApprovals1Dto",
+        "IsRequired": true
+      },
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "UpdateApprovalsForTheDivision",
+    "RelativePath": "api/Approvals/UpdateApprovalsForTheDivision",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateApprovalsDto",
+        "Type": "V1.DTO.ApprovalsDTO.UpdateApprovalsDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ApprovalsController",
+    "Method": "UpdateApprovalsForTheMark",
+    "RelativePath": "api/Approvals/UpdateApprovalsForTheMark/{markId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateApprovalsDto",
+        "Type": "V1.DTO.ApprovalsDTO.UpdateApprovalsDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "markId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AttendanceController",
+    "Method": "AddAttendance",
+    "RelativePath": "api/Attendance/AddMultipleAttendances",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createAttendanceDTOs",
+        "Type": "System.Collections.Generic.List\u00601[[V1.DTO.AttendanceDTO.AddAttententsDto, V1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AttendanceController",
+    "Method": "DeleteAttendance",
+    "RelativePath": "api/Attendance/DeleteAttendance",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AttendanceController",
+    "Method": "GetAllAttendanceByCourseId",
+    "RelativePath": "api/Attendance/GetAllAttendanceByCourseId{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AttendanceController",
+    "Method": "GetAllAttendanceByStudentId",
+    "RelativePath": "api/Attendance/GetAllAttendanceByStudentId{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AttendanceController",
+    "Method": "GetAllAttendances",
+    "RelativePath": "api/Attendance/GetAllAttendances",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AttendanceController",
+    "Method": "GetAttendaceByDateAndDoctorId",
+    "RelativePath": "api/Attendance/GetAttendanceByDateAndDoctorId/{date}/{doctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.DateOnly",
+        "IsRequired": true
+      },
+      {
+        "Name": "doctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AttendanceController",
+    "Method": "GetAttendanceByDateRange",
+    "RelativePath": "api/Attendance/GetAttendanceByDateRange{startDate}/{endDate}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateOnly",
+        "IsRequired": true
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateOnly",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AttendanceController",
+    "Method": "GetAttendanceByDoctorId",
+    "RelativePath": "api/Attendance/GetAttendanceByDoctorId{doctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AttendanceController",
+    "Method": "GetAttendanceById",
+    "RelativePath": "api/Attendance/GetAttendanceById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AttendanceController",
+    "Method": "GetSubGroupForDoctorId",
+    "RelativePath": "api/Attendance/GetSubGroupForDoctorId{doctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.AttendanceController",
+    "Method": "UpdateAttendance",
+    "RelativePath": "api/Attendance/UpdateAttendance/{attendanceId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "attendanceId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "attendanceUpdateDTO",
+        "Type": "DevetionStudetns.DTO.AttendanceDTO.AttendanceUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "V1.DTO.LoginDTO.loginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.CourseCountroller",
+    "Method": "add",
+    "RelativePath": "api/CourseCountroller/add corse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseDto",
+        "Type": "FinalProject.DTO.CourseDTO.CourseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.CourseCountroller",
+    "Method": "delete",
+    "RelativePath": "api/CourseCountroller/delete course",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.CourseCountroller",
+    "Method": "Get",
+    "RelativePath": "api/CourseCountroller/get all courses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.CourseCountroller",
+    "Method": "GetAllData",
+    "RelativePath": "api/CourseCountroller/GetAllDataCourse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.CourseCountroller",
+    "Method": "GetCourseByDepartement",
+    "RelativePath": "api/CourseCountroller/GetByDepartement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departementId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.CourseCountroller",
+    "Method": "GetCourseByCourseLevel",
+    "RelativePath": "api/CourseCountroller/GetCourseByCourseLevel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseLevel",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.CourseCountroller",
+    "Method": "GetCourseByCourseLevelAndDepartement",
+    "RelativePath": "api/CourseCountroller/GetCourseByCourseLevelAndDepartement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseLevel",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "departement",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.CourseCountroller",
+    "Method": "GetCourseByCourseId",
+    "RelativePath": "api/CourseCountroller/GitCourseById/{CourseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.CourseCountroller",
+    "Method": "Update",
+    "RelativePath": "api/CourseCountroller/update course",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "courseDto",
+        "Type": "V1.DTO.CourseDTO.UpdateCourseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DepartmentsTbl_CRUD.Controllers.DepartmentsController",
+    "Method": "AddDepartment",
+    "RelativePath": "api/Departments/AddDepartment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentDTO",
+        "Type": "DepartmentsTbl_CRUD.DTO.AddDepartmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DepartmentsTbl_CRUD.Controllers.DepartmentsController",
+    "Method": "DeleteDepartment",
+    "RelativePath": "api/Departments/DeleteDepartment{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DepartmentsTbl_CRUD.Controllers.DepartmentsController",
+    "Method": "GetAllDepartments",
+    "RelativePath": "api/Departments/GetAllDepartments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DepartmentsTbl_CRUD.DTO.AddDepartmentDto, V1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DepartmentsTbl_CRUD.Controllers.DepartmentsController",
+    "Method": "GetDepartmentById",
+    "RelativePath": "api/Departments/GetDepartmentById{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DepartmentsTbl_CRUD.DTO.AddDepartmentDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DepartmentsTbl_CRUD.Controllers.DepartmentsController",
+    "Method": "UpdateDepartment",
+    "RelativePath": "api/Departments/UpdateDepartment{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "departmentsDTO",
+        "Type": "DepartmentsTbl_CRUD.DTO.AddDepartmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistributionsMainController",
+    "Method": "AddDistributionsMainGroup",
+    "RelativePath": "api/DistributionsMain/AddDistributionsMainGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addDistributionsMainGroupDto",
+        "Type": "DevetionStudetns.DTO.DistributionsMainGroupDTO.AddDistributionsMainGroupDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistributionsMainController",
+    "Method": "DeleteDistributionsMainGroup",
+    "RelativePath": "api/DistributionsMain/DeleteDistributionsMainGroup/{DistributionsMainGroupId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DistributionsMainGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistributionsMainController",
+    "Method": "ShowDistributionFroTheMainGroup",
+    "RelativePath": "api/DistributionsMain/ShowDistributionFroTheMainGroup/{MainGroupId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MainGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistributionsMainController",
+    "Method": "ShowDistributionFroTheMainGroupByDistributionsMainGroupIdService",
+    "RelativePath": "api/DistributionsMain/ShowDistributionFroTheMainGroupByDistributionsMainGroupId/{DistributionsMainGroupId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DistributionsMainGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistributionsMainController",
+    "Method": "ShowDistributionMainGroupByLevelAndRotationId",
+    "RelativePath": "api/DistributionsMain/ShowDistributionMainGroupByLevelAndRotationId/{Level}/{AcademicYearName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Level",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistributionsMainController",
+    "Method": "ShowDistributionMainGroupFroTheLevel",
+    "RelativePath": "api/DistributionsMain/ShowDistributionMainGroupFroTheLevel/{Level}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Level",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistributionsMainController",
+    "Method": "UpdateDistributionsMainGroup",
+    "RelativePath": "api/DistributionsMain/UpdateDistributionsMainGroup/{DistributionsMainGroupId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewDistributionsMainGroupDto",
+        "Type": "V1.DTO.DistributionMainGroupDTO.UpdateDistributionsMainGroupDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "DistributionsMainGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistriputionController",
+    "Method": "AddDistribution",
+    "RelativePath": "api/Distripution/AddDistribution",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addDistibutionsDto",
+        "Type": "DevetionStudetns.DTO.DistributionsDTO.AddDistibutionsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistriputionController",
+    "Method": "DeleteDistubution",
+    "RelativePath": "api/Distripution/DeleteDistubution/{DistrbutionId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DistrbutionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistriputionController",
+    "Method": "getAllDistbutionByMainGroupIdAndRotationId",
+    "RelativePath": "api/Distripution/getAllDistbutionByMainGroupIdAndRotationId/{mainGroupId}/{RotationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mainGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "RotationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistriputionController",
+    "Method": "getAllDistbutionBySubGroupIdAndRotationId",
+    "RelativePath": "api/Distripution/getAllDistbutionByMainGroupIdAndRotationIdAndRotationId/{SubGroupId}/{RotationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SubGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "RotationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistriputionController",
+    "Method": "getAllDistbutionId",
+    "RelativePath": "api/Distripution/getAllDistbutionId/{DistributionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DistributionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistriputionController",
+    "Method": "getAllDistbutionToTheDoctorByDoctorIdAndRotationId",
+    "RelativePath": "api/Distripution/getAllDistbutionToTheDoctorByDoctorId/{DoctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistriputionController",
+    "Method": "GetCourseByDctorIdAndAcadmicYear",
+    "RelativePath": "api/Distripution/GetCourseByDctorIdAndAcadmicYear/{DoctorId}/{AcadmicYear}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "AcadmicYear",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistriputionController",
+    "Method": "GetDistbutionForTheStudentsByStudentsId",
+    "RelativePath": "api/Distripution/GetDistbutionForTheStudentsByStudentsId/{StudentsId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentsId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistriputionController",
+    "Method": "GetDoctorByRotationIdMainGroupAndAcadmicYear",
+    "RelativePath": "api/Distripution/GetDoctorByRotationIdMainGroupAndAcadmicYear/{MainGroup}/{RotationId}/{AcadmicYear}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MainGroup",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "RotationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "AcadmicYear",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DistriputionController",
+    "Method": "UpdateDistrbution",
+    "RelativePath": "api/Distripution/UpdateDistrbution/{DistrbutionId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewDistrbutionData",
+        "Type": "DevetionStudetns.DTO.DistributionsDTO.AddDistibutionsDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "DistrbutionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DivisionController",
+    "Method": "AddDivision",
+    "RelativePath": "api/Division/AddDivision",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AddDivision",
+        "Type": "DevetionStudetns.DTO.DivisionsDTO.DivisionAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DivisionController",
+    "Method": "DeleteDivision",
+    "RelativePath": "api/Division/DeleteDivision/{DivisionId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DivisionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DivisionController",
+    "Method": "GetAllStudentsInOneMainByMainGroupId",
+    "RelativePath": "api/Division/GetAllStudentsInOneMainByMainGroupId/{MainGroupId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MainGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DivisionController",
+    "Method": "GetAllStudentsInOneSubGroupBySubGroupId",
+    "RelativePath": "api/Division/GetAllStudentsInOneSubGroupBySubGroupId/{SubGroupId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SubGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DivisionController",
+    "Method": "GetAllStudentsInTheSameLevel",
+    "RelativePath": "api/Division/GetAllStudentsInTheSameLevel/{Level}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Level",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DivisionController",
+    "Method": "GetDataForStudentId",
+    "RelativePath": "api/Division/GetDataForStudentId/{StudentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DivisionController",
+    "Method": "UpdateDivision",
+    "RelativePath": "api/Division/UpdateDivision/{DivisionId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewData",
+        "Type": "DevetionStudetns.DTO.DivisionsDTO.DivisionAddDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "DivisionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.DivisionAiController",
+    "Method": "AIDistributeStudents",
+    "RelativePath": "api/DivisionAi/ai-distribute/{mainGroupId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mainGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "V1.DTO.DivisionAiDTO.DivisionAiRequest2",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DoctorController",
+    "Method": "Add",
+    "RelativePath": "api/Doctor/Add Doctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorDto",
+        "Type": "DevetionStudetns.DTO.DoctorDto.DoctorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DoctorController",
+    "Method": "Delete",
+    "RelativePath": "api/Doctor/Delete Doctor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DoctorController",
+    "Method": "GetAllData",
+    "RelativePath": "api/Doctor/Get All Doctors Data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DoctorController",
+    "Method": "Get",
+    "RelativePath": "api/Doctor/Get Data Doctors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DoctorController",
+    "Method": "GetByDepartement",
+    "RelativePath": "api/Doctor/GetByDepartmentId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DoctorController",
+    "Method": "GetDoctorById",
+    "RelativePath": "api/Doctor/GetDoctorById/{DcotroId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DcotroId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.DoctorController",
+    "Method": "Update",
+    "RelativePath": "api/Doctor/Update Doctor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "doctorDto",
+        "Type": "DevetionStudetns.DTO.DoctorDto.UpdateDoctorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.DoctorCourseController",
+    "Method": "AddDcotorCourse",
+    "RelativePath": "api/DoctorCourse/AddDcotorCourse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addDoctorCourseDto",
+        "Type": "V1.DTO.DoctorCrouseDTO.AddDoctorCourseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.DoctorCourseController",
+    "Method": "DeleteDoctorCourseByDoctorIdAndCourseId",
+    "RelativePath": "api/DoctorCourse/DeleteDoctorCourseByDoctorIdAndCourseId/{DoctorId}/{CourseId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.DoctorCourseController",
+    "Method": "GetAllDoctorCourse",
+    "RelativePath": "api/DoctorCourse/GetAllDoctorCourse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.DoctorCourseController",
+    "Method": "GetAllSupervisedDoctor",
+    "RelativePath": "api/DoctorCourse/GetAllSupervisedDoctor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.DoctorCourseController",
+    "Method": "GetDoctorCourseByCurrentAcademicYear",
+    "RelativePath": "api/DoctorCourse/GetDoctorCourseByCurrentAcademicYear/{CurrentAcademicYearName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CurrentAcademicYearName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.DoctorCourseController",
+    "Method": "GetDoctorCourseByDoctorIdAndCourseId",
+    "RelativePath": "api/DoctorCourse/GetDoctorCourseByDoctorIdAndCourseId/{DoctorId}/{CourseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationFormController",
+    "Method": "AddEvaluationForm",
+    "RelativePath": "api/EvaluationForm/AddEvaluationQuestions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "evaluationQuestions",
+        "Type": "FinalProject.DTO.EvaluationFormDto.AddEvaluationFormDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationFormController",
+    "Method": "DeleteEvaluationForm",
+    "RelativePath": "api/EvaluationForm/DeleteEvaluationQuestion",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EvaluationFormID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationFormController",
+    "Method": "GetEvaluationForm",
+    "RelativePath": "api/EvaluationForm/GetEvaluationForm",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationFormController",
+    "Method": "GetEvaluationFormById",
+    "RelativePath": "api/EvaluationForm/GetEvaluationFormById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "evaluationFormId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationFormController",
+    "Method": "UpdateEvaluationForm",
+    "RelativePath": "api/EvaluationForm/UpdateEvaluationQuestion",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EvaluationFormID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EvaluationQuestionsData",
+        "Type": "FinalProject.DTO.EvaluationFormDto.AddEvaluationFormDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationFormAndEvaluationQuestionController",
+    "Method": "AddEvaluationFormAndQuestions",
+    "RelativePath": "api/EvaluationFormAndEvaluationQuestion/AddEvaluationFormAndQuestions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "evaluationQuestions",
+        "Type": "FinalProject.DTO.EvaluationForm_EvaluationQuestionDTO.AddEvaluationFormAndEvaluationQuestionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationFormAndEvaluationQuestionController",
+    "Method": "DeleteEvaluationFormAndQuestions",
+    "RelativePath": "api/EvaluationFormAndEvaluationQuestion/DeleteEvaluationFormAndQuestions",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FormId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "QuestionId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationFormAndEvaluationQuestionController",
+    "Method": "GetEvaluationFormAndQuestions",
+    "RelativePath": "api/EvaluationFormAndEvaluationQuestion/GetEvaluationFormAndQuestions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationFormAndEvaluationQuestionController",
+    "Method": "GetEvaluationFormAndQuestionsById",
+    "RelativePath": "api/EvaluationFormAndEvaluationQuestion/GetEvaluationFormAndQuestionsById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FormId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "QuestionId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationQuestionsController",
+    "Method": "AddEvaluationQuestions",
+    "RelativePath": "api/EvaluationQuestions/AddEvaluationQuestion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "evaluationQuestions",
+        "Type": "V1.DTO.EvaluationQuestionsDTO.AddEvaluationQuestionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationQuestionsController",
+    "Method": "DeleteEvaluationQuestions",
+    "RelativePath": "api/EvaluationQuestions/DeleteEvaluationQuestion",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EvaluationQuestionID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationQuestionsController",
+    "Method": "getEvaluationQuestionByFormName",
+    "RelativePath": "api/EvaluationQuestions/getEvaluationQuestionByFormName/{formName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationQuestionsController",
+    "Method": "getEvaluationQuestionByFormId",
+    "RelativePath": "api/EvaluationQuestions/GetEvaluationQuestionByFromId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "evaluationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationQuestionsController",
+    "Method": "GetEvaluationQuestionById",
+    "RelativePath": "api/EvaluationQuestions/GetEvaluationQuestionById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "QuestionId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationQuestionsController",
+    "Method": "GetEvaluationQuestions",
+    "RelativePath": "api/EvaluationQuestions/GetEvaluationQuestions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.EvaluationQuestionsController",
+    "Method": "UpdateEvaluationQuestion",
+    "RelativePath": "api/EvaluationQuestions/UpdateEvaluationQuestion",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EvaluationQuestionID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EvaluationQuestionsData",
+        "Type": "V1.DTO.EvaluationQuestionsDTO.AddEvaluationQuestionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.CreateReport.fastReportController",
+    "Method": "CreateReportForSubGroupByMainGroupId",
+    "RelativePath": "api/fastReport/CreateReportForSubGroupByMainGroupId/{MainGropId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MainGropId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.CreateReport.fastReportController",
+    "Method": "CreateReportGetAllStudentsInOneMainGroup",
+    "RelativePath": "api/fastReport/CreateReportGetAllStudentsInOneMainGroup/{MainGropId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MainGropId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.CreateReport.fastReportController",
+    "Method": "CreateReportGetTheDistrbutionDataByRotationIdAndDoctorId",
+    "RelativePath": "api/fastReport/CreateReportGetTheDistrbutionDataByRotationIdAndDoctorId/{DoctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.CreateReport.fastReportController",
+    "Method": "CreateReportGetTheDistrbutionDataByRotationIdAndMainGroupId",
+    "RelativePath": "api/fastReport/CreateReportGetTheDistrbutionDataByRotationIdAndMainGroupId/{MainGropId}/{RotationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MainGropId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "RotationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.CreateReport.fastReportController",
+    "Method": "CreateReportGetTheDistrbutionDataByRotationIdAndStudentsId",
+    "RelativePath": "api/fastReport/CreateReportGetTheDistrbutionDataByRotationIdAndStudentsId/{StudentsId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentsId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.CreateReport.fastReportController",
+    "Method": "CreateReportGetTheDistrbutionDataByRotationIdAndSubGroupId",
+    "RelativePath": "api/fastReport/CreateReportGetTheDistrbutionDataByRotationIdAndSubGroupId/{SubGroupId}/{RotationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SubGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "RotationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.HospitalCountroller",
+    "Method": "add",
+    "RelativePath": "api/HospitalCountroller/Add Hospital",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hospital",
+        "Type": "DevetionStudetns.DTO.Hospital.HospitalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.HospitalCountroller",
+    "Method": "Delete",
+    "RelativePath": "api/HospitalCountroller/Delete Hospital",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "HospitalId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.HospitalCountroller",
+    "Method": "Get",
+    "RelativePath": "api/HospitalCountroller/Get All Hospital",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.HospitalCountroller",
+    "Method": "GetHospitalById",
+    "RelativePath": "api/HospitalCountroller/GetHospitalById/{hospitalId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hospitalId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.HospitalCountroller",
+    "Method": "Update",
+    "RelativePath": "api/HospitalCountroller/Update Hospital",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "HospitalId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "hospitalDto",
+        "Type": "DevetionStudetns.DTO.Hospital.HospitalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.MainGroupController",
+    "Method": "AddMainGroup",
+    "RelativePath": "api/MainGroup/AddMainGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mainGroup",
+        "Type": "DevetionStudetns.DTO.MainGroupDTO.AddMainGroupDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.MainGroupController",
+    "Method": "DeleteMainGroup",
+    "RelativePath": "api/MainGroup/DeleteMainGroup/{mainGroupId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mainGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.MainGroupController",
+    "Method": "GetMianGroupByYearAndACYRepoForTheDistpution",
+    "RelativePath": "api/MainGroup/GetMianGroupByYearAndACYRepoForTheDistpution/{acadimicYear}/{level}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "acadimicYear",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "level",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.MainGroupController",
+    "Method": "ShowMainGroupBySympole",
+    "RelativePath": "api/MainGroup/ShowMainGroupBySympole/{getMainGroupById}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getMainGroupById",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.MainGroupController",
+    "Method": "ShowMainGroupByYearAndACY",
+    "RelativePath": "api/MainGroup/ShowMainGroupByYearAndACY",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "level",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AcadimycYear",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.MainGroupController",
+    "Method": "UpdateMinGoup",
+    "RelativePath": "api/MainGroup/UpdateMainGoup/{MianGroupId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mainGroup",
+        "Type": "DevetionStudetns.DTO.MainGroupDTO.AddMainGroupDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "MianGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.MarkController",
+    "Method": "AddMarks",
+    "RelativePath": "api/Mark/AddMarks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addMarkDto",
+        "Type": "System.Collections.Generic.List\u00601[[V1.DTO.MarkDTO.AddMarkDto, V1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.MarkController",
+    "Method": "DeleteMark",
+    "RelativePath": "api/Mark/DeleteMark/{MarkId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MarkId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.MarkController",
+    "Method": "GetMarkById",
+    "RelativePath": "api/Mark/GetMarkById/{markId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "markId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.MarkController",
+    "Method": "GetMarkBySCorseIdAndAcadimicYear",
+    "RelativePath": "api/Mark/GetMarkBySCorseIdAndAcadimicYear/{AcademicYearName}/{CouresId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AcademicYearName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "CouresId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.MarkController",
+    "Method": "GetMarkByStudentsId",
+    "RelativePath": "api/Mark/GetMarkByStudentsId/{StudentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.MarkController",
+    "Method": "GetMarkForTheStudentByIdAndCourseId",
+    "RelativePath": "api/Mark/GetMarkForTheStudentByIdAndCourseId/{StudentsId}/{CourseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentsId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.MarkController",
+    "Method": "GetStudentsForTheUpdate",
+    "RelativePath": "api/Mark/GetStudentsForTheUpdate/{DoctorId}/{AcademicYear}/{RotationId}/{MarkType}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "AcademicYear",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "RotationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "MarkType",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.MarkController",
+    "Method": "GetStudentsInOneCourseLastTheRotationByDoctorId",
+    "RelativePath": "api/Mark/GetStudentsInOneCourseLastTheRotationByDoctorId/{DoctorId}/{AcademicYear}/{MarkType}/{RotationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "AcademicYear",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "MarkType",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "RotationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.MarkController",
+    "Method": "GetSumOfTheWeeklyEvaluation",
+    "RelativePath": "api/Mark/GetSumOfTheWeeklyEvaluation/{StudentsId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentsId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.MarkController",
+    "Method": "UpdateMark",
+    "RelativePath": "api/Mark/UpdateMark/{MarkId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewMarkDot",
+        "Type": "V1.DTO.MarkDTO.UpdateMarkDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "MarkId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.MessageController",
+    "Method": "GetMessagesBetweenUsers",
+    "RelativePath": "api/Message/between",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "senderId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "receiverId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.MessageController",
+    "Method": "GetReceivedMessages",
+    "RelativePath": "api/Message/received/{receiverId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "receiverId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.MessageController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Message/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "DevetionStudetns.DTO.firebase.AddMessDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.PolicieController",
+    "Method": "AddPolicie",
+    "RelativePath": "api/Policie/AddPolicie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AddPolicie",
+        "Type": "V1.DTO.PolicieDTO.AddPolicieDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.PolicieController",
+    "Method": "DeletePolicie",
+    "RelativePath": "api/Policie/DeletePolicie/{policieId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policieId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.PolicieController",
+    "Method": "GetAllPolicie",
+    "RelativePath": "api/Policie/GetAllPolicie",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.PolicieController",
+    "Method": "GetAllPolicieById",
+    "RelativePath": "api/Policie/GetAllPolicieById/{PolicieId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PolicieId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.PolicieController",
+    "Method": "UpdatePolicie",
+    "RelativePath": "api/Policie/UpdatePolicie/{PolicieId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newDataPolicieDto",
+        "Type": "V1.DTO.PolicieDTO.UpdatePolicieDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "PolicieId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.QuestionnaireController",
+    "Method": "AddQuestionnaire",
+    "RelativePath": "api/Questionnaire/AddQuestionnaire",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addQuetionnaireDto",
+        "Type": "FinalProject.DTO.QuestionnaireDTO.AddQuetionnaireDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.QuestionnaireController",
+    "Method": "DeleteQuestionnair",
+    "RelativePath": "api/Questionnaire/DeleteQuestionnair/{QuestionnairId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "QuestionnairId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.QuestionnaireController",
+    "Method": "ShowAllQuestionnaire",
+    "RelativePath": "api/Questionnaire/ShowAllQuestionnaire/{QuestionnaireType}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "QuestionnaireType",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.QuestionnaireController",
+    "Method": "ShowQuestionnaireById",
+    "RelativePath": "api/Questionnaire/ShowQuestionnaireById/{QuestionnaireId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "QuestionnaireId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.QuestionnaireController",
+    "Method": "ShowQuestionnaireByUserId",
+    "RelativePath": "api/Questionnaire/ShowQuestionnaireByUserId/{UserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "QuestionnaireType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinalProject.Controllers.QuestionnaireController",
+    "Method": "UpdateQuestionnair",
+    "RelativePath": "api/Questionnaire/UpdateQuestionnair/{QuestionnairId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewQuestionnairData",
+        "Type": "V1.DTO.QuestionnaireDTO.UpdateQuetionnaireDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "QuestionnairId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UploadReportsCode.Controllers.ReportsController",
+    "Method": "DeleteReport",
+    "RelativePath": "api/Reports",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UploadReportsCode.Controllers.ReportsController",
+    "Method": "AddReport",
+    "RelativePath": "api/Reports/AddReport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReportName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ConcernedParty",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReportAttachment",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UploadReportsCode.Controllers.ReportsController",
+    "Method": "GetAllReports",
+    "RelativePath": "api/Reports/GetAllReports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UploadReportsCode.Controllers.ReportsController",
+    "Method": "GetReportById",
+    "RelativePath": "api/Reports/GetReportById{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UploadReportsCode.Controllers.ReportsController",
+    "Method": "UpdateReportName",
+    "RelativePath": "api/Reports/UpdateReportName{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateReport",
+        "Type": "DevetionStudetns.DTO.Repotrs.UpdateReportDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ResultAnswerTheEvaluationController",
+    "Method": "Get",
+    "RelativePath": "api/ResultAnswerTheEvaluation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ResultAnswerTheEvaluationController",
+    "Method": "Gettotal",
+    "RelativePath": "api/ResultAnswerTheEvaluation/total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.ResultAnswerTheEvaluationController",
+    "Method": "totalbydoctor",
+    "RelativePath": "api/ResultAnswerTheEvaluation/totalbydoctor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "doctorid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.RotationController",
+    "Method": "AddRotations",
+    "RelativePath": "api/Rotation/AddRotations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addRotaionsDto",
+        "Type": "DevetionStudetns.DTO.RotationsDTO.AddRotaionsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.RotationController",
+    "Method": "DeleteRotations",
+    "RelativePath": "api/Rotation/DeleteRotations/{RotationsId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RotationsId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.RotationController",
+    "Method": "ShowDateRotaionByRotationId",
+    "RelativePath": "api/Rotation/ShowDateRotaionByRotationId/{RotationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RotationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.RotationController",
+    "Method": "ShowDateRotaionInOneYear",
+    "RelativePath": "api/Rotation/ShowDateRotaionInOneYear/{Academic_Year}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Academic_Year",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.RotationController",
+    "Method": "UpdateRotations",
+    "RelativePath": "api/Rotation/UpdateRotations/{RotationsId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewRotaionsData",
+        "Type": "DevetionStudetns.DTO.RotationsDTO.AddRotaionsDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "RotationsId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.StudentsController",
+    "Method": "AddStudentds",
+    "RelativePath": "api/Students/AddStudentds",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentsAddDto",
+        "Type": "DevetionStudetns.DTO.StudentsDTO.StudentsAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.StudentsController",
+    "Method": "DeleteStudents",
+    "RelativePath": "api/Students/DeleteStudents/{StudentsId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentsId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.StudentsController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/Students/GetAllStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.StudentsController",
+    "Method": "GetAllStudentsInOneSubGroupById",
+    "RelativePath": "api/Students/GetAllStudentsInOneSubGroupById/{SubGroupId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SubGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.StudentsController",
+    "Method": "GetAllStudentsInSameLevelInAllSubGroup",
+    "RelativePath": "api/Students/GetAllStudentsInSameLevelInAllSubGroup/{Level}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Level",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.StudentsController",
+    "Method": "GetAllStudentsOnSameLevel",
+    "RelativePath": "api/Students/GetAllStudentsOnSameLevel/{Level}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Level",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.StudentsController",
+    "Method": "getStudentsData",
+    "RelativePath": "api/Students/GetStudentsDataById/{StudentsId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentsId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.StudentsController",
+    "Method": "UpdateStudnetsData",
+    "RelativePath": "api/Students/UpdateStudentsData/{StudentId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewStudentsData",
+        "Type": "FinalProject.DTO.StudentsDTO.UpdateStudentsDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.SubGroupController",
+    "Method": "AddSubGroup",
+    "RelativePath": "api/SubGroup/AddSubGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SupGroup",
+        "Type": "DevetionStudetns.DTO.SubGroupDTO.AddSubGroupDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.SubGroupController",
+    "Method": "DeleteSubGroup",
+    "RelativePath": "api/SubGroup/DeleteSubGroup/{subGrooupId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subGrooupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.SubGroupController",
+    "Method": "GetSubGroupBySubGroupId",
+    "RelativePath": "api/SubGroup/GetSubGroupBySubGroupId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subGroupId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.SubGroupController",
+    "Method": "GetSubGroupInOneMainGroup",
+    "RelativePath": "api/SubGroup/GetSubGroupInOneMainGroup/{MainGroupId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MainGroupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.SubGroupController",
+    "Method": "UpdateSubGroupBySubGroupId",
+    "RelativePath": "api/SubGroup/UpdateSubGroupBySubGroupId",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewDataSubGroup",
+        "Type": "DevetionStudetns.DTO.SubGroupDTO.AddSubGroupDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "subGroupId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.TAController",
+    "Method": "Add_TA",
+    "RelativePath": "api/TA/Add_TA",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tADTO",
+        "Type": "DevetionStudetns.DTO.TADTO.AddTADto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.TAController",
+    "Method": "Delete_TA",
+    "RelativePath": "api/TA/Delete_TA{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.TAController",
+    "Method": "GetAllTAs",
+    "RelativePath": "api/TA/GetAllTAs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.TAController",
+    "Method": "GetTAById",
+    "RelativePath": "api/TA/GetTAById{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.TAController",
+    "Method": "Update_TA",
+    "RelativePath": "api/TA/Update_TA{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "tADTO",
+        "Type": "DevetionStudetns.DTO.TADTO.UpdateTaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User/AddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "DevetionStudetns.DTO.UserDTO.AddUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.UserController",
+    "Method": "DeleteUserByUserName",
+    "RelativePath": "api/User/DeleteUserByUserName/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.UserController",
+    "Method": "GetTheClinicalDepartmentDirectorAndDepartmentHeads",
+    "RelativePath": "api/User/GetTheClinicalDepartmentDirectorAndDepartmentHeads",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.UserController",
+    "Method": "GetUserByUserName",
+    "RelativePath": "api/User/GetUserByUserName/{UserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevetionStudetns.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/UpdateUser/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "DevetionStudetns.DTO.UserDTO.AddUserDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.WeeklyEvaluationController",
+    "Method": "AddWeeklyEvaluation",
+    "RelativePath": "api/WeeklyEvaluation/AddWeeklyEvaluation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "V1.DTO.WeeklyEvaluationDTO.AddWeeklyEvaluationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.WeeklyEvaluationController",
+    "Method": "DeleteWeeklyEvaluation",
+    "RelativePath": "api/WeeklyEvaluation/DeleteWeeklyEvaluation{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.WeeklyEvaluationController",
+    "Method": "GetAllWeeklyEvaluations",
+    "RelativePath": "api/WeeklyEvaluation/GetAllWeeklyEvaluations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.WeeklyEvaluationController",
+    "Method": "GetEvaluationMarkByStudentId",
+    "RelativePath": "api/WeeklyEvaluation/GetEvaluationMarkByStudentId{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.WeeklyEvaluationController",
+    "Method": "GetSubGroupByDoctroId",
+    "RelativePath": "api/WeeklyEvaluation/GetSubGroupByDoctroId/{DoctorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DoctorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.WeeklyEvaluationController",
+    "Method": "GetSumOfEvaluationWeekByStudentsId",
+    "RelativePath": "api/WeeklyEvaluation/GetSumOfEvaluationWeekByStudentsId/{StudentsId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentsId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.WeeklyEvaluationController",
+    "Method": "GettWeeklyEvaluationById",
+    "RelativePath": "api/WeeklyEvaluation/GettWeeklyEvaluationById{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "V1.Controllers.WeeklyEvaluationController",
+    "Method": "UpdateWeeklyEvaluation",
+    "RelativePath": "api/WeeklyEvaluation/UpdateWeeklyEvaluation{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "V1.DTO.WeeklyEvaluationDTO.UpdateWeeklyEvaluationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

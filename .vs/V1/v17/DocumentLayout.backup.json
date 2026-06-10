@@ -1,0 +1,318 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\controllers\\firebase\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\controllers\\firebase\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\jwt\\ssfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\jwt\\ssfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\jwt\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\jwt\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\jwt\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\jwt\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\jwt\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\jwt\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\chathub\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\chathub\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\controllers\\allacademicyearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\controllers\\allacademicyearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\controllers\\academicyearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\controllers\\academicyearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\mappers\\messagemapper\\messagemapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\mappers\\messagemapper\\messagemapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\dto\\messagedto\\getmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\dto\\messagedto\\getmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\dto\\messagedto\\sendmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\dto\\messagedto\\sendmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\repositry\\academicyearrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\repositry\\academicyearrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\v1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\v1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|c:\\users\\salah\\onedrive\\desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\clinicalteachingsystem\\v1\\entity\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64CB40C-DEFD-4095-A6B1-58DF13B8509E}|V1\\V1.csproj|solutionrelative:v1\\entity\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SSFilter.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\jwt\\SSFilter.cs",
+              "RelativeDocumentMoniker": "V1\\jwt\\SSFilter.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\jwt\\SSFilter.cs",
+              "RelativeToolTip": "V1\\jwt\\SSFilter.cs",
+              "ViewState": "AgIAAEQAAAAgMzMzMzMnwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T13:12:11.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\jwt\\interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "V1\\jwt\\interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\jwt\\interfaces\\ITokenService.cs",
+              "RelativeToolTip": "V1\\jwt\\interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T13:11:48.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Dockerfile",
+              "RelativeDocumentMoniker": "V1\\Dockerfile",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Dockerfile",
+              "RelativeToolTip": "V1\\Dockerfile",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-09T13:07:56.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\appsettings.json",
+              "RelativeDocumentMoniker": "V1\\appsettings.json",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\appsettings.json",
+              "RelativeToolTip": "V1\\appsettings.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-25T11:46:53.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "V1\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "V1\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAFcAAAAAzczMzMwwwAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:31:14.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Controllers\\firebase\\MessageController.cs",
+              "RelativeDocumentMoniker": "V1\\Controllers\\firebase\\MessageController.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Controllers\\firebase\\MessageController.cs",
+              "RelativeToolTip": "V1\\Controllers\\firebase\\MessageController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAYwHoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T13:21:08.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\jwt\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "V1\\jwt\\Service\\TokenService.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\jwt\\Service\\TokenService.cs",
+              "RelativeToolTip": "V1\\jwt\\Service\\TokenService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T19:21:40.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\jwt\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "V1\\jwt\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\jwt\\LoginResponse.cs",
+              "RelativeToolTip": "V1\\jwt\\LoginResponse.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAxwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T19:21:32.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AllAcademicYearController.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Controllers\\AllAcademicYearController.cs",
+              "RelativeDocumentMoniker": "V1\\Controllers\\AllAcademicYearController.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Controllers\\AllAcademicYearController.cs",
+              "RelativeToolTip": "V1\\Controllers\\AllAcademicYearController.cs",
+              "ViewState": "AgIAAEYAAAAAzczMzMwUwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T19:09:30.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AcademicYearController.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Controllers\\AcademicYearController.cs",
+              "RelativeDocumentMoniker": "V1\\Controllers\\AcademicYearController.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Controllers\\AcademicYearController.cs",
+              "RelativeToolTip": "V1\\Controllers\\AcademicYearController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:30:12.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\ChatHub\\ChatHub.cs",
+              "RelativeDocumentMoniker": "V1\\ChatHub\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\ChatHub\\ChatHub.cs",
+              "RelativeToolTip": "V1\\ChatHub\\ChatHub.cs",
+              "ViewState": "AgIAAEEAAACAmZmZmZkJwEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:15:51.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetMessageDto.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\DTO\\MessageDTO\\GetMessageDto.cs",
+              "RelativeDocumentMoniker": "V1\\DTO\\MessageDTO\\GetMessageDto.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\DTO\\MessageDTO\\GetMessageDto.cs",
+              "RelativeToolTip": "V1\\DTO\\MessageDTO\\GetMessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T19:00:38.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AcademicYearRepo.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Repositry\\AcademicYearRepo.cs",
+              "RelativeDocumentMoniker": "V1\\Repositry\\AcademicYearRepo.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Repositry\\AcademicYearRepo.cs",
+              "RelativeToolTip": "V1\\Repositry\\AcademicYearRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:19:05.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Program.cs",
+              "RelativeDocumentMoniker": "V1\\Program.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Program.cs",
+              "RelativeToolTip": "V1\\Program.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAAAM0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:11:56.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "V1.csproj",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\V1.csproj",
+              "RelativeDocumentMoniker": "V1\\V1.csproj",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\V1.csproj",
+              "RelativeToolTip": "V1\\V1.csproj",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-16T18:11:42.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Entity\\Message.cs",
+              "RelativeDocumentMoniker": "V1\\Entity\\Message.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Entity\\Message.cs",
+              "RelativeToolTip": "V1\\Entity\\Message.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:02:30.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MessageMapp.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Mappers\\MessageMapper\\MessageMapp.cs",
+              "RelativeDocumentMoniker": "V1\\Mappers\\MessageMapper\\MessageMapp.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\Mappers\\MessageMapper\\MessageMapp.cs",
+              "RelativeToolTip": "V1\\Mappers\\MessageMapper\\MessageMapp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T13:24:32.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SendMessageDto.cs",
+              "DocumentMoniker": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\DTO\\MessageDTO\\SendMessageDto.cs",
+              "RelativeDocumentMoniker": "V1\\DTO\\MessageDTO\\SendMessageDto.cs",
+              "ToolTip": "C:\\Users\\salah\\OneDrive\\Desktop\\\u0645\u0634\u0631\u0648\u0639 \u0627\u0644\u062A\u062E\u0631\u062C public\\ClinicalTeachingSystem\\V1\\DTO\\MessageDTO\\SendMessageDto.cs",
+              "RelativeToolTip": "V1\\DTO\\MessageDTO\\SendMessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T18:33:01.695Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
